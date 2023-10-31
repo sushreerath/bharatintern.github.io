@@ -188,7 +188,7 @@ ul li a:hover {
   }
 }
 
-/* skills section */
+/*skills*/
 .skills {
   background-color: #1A1A1D;
   color: #fff;
@@ -245,7 +245,7 @@ ul li a:hover {
   margin: 2rem 0;
 }
 
-/* project section */
+/* project */
 .projects {
   background-color: #4E4E50;
   padding: 2rem 0;
@@ -319,7 +319,7 @@ ul li a:hover {
   border-radius: 5px;
 }
 
-/* resume section */
+/* resume*/
 .resume {
   background-color: #1A1A1D;
   color: #fff;
@@ -408,7 +408,7 @@ h3 {
   color: #fff;
 }
 
-/* contact section */
+/* contact*/
 .contact {
   background-color: #4E4E50;
   padding: 2rem 0;
@@ -518,12 +518,12 @@ button:hover {
   flex-wrap: wrap;
 }
 
-/* footer section */
+/* footer */
 .footer {
   background-color: #1A1A1D;
   color: #fff;
   padding: 1rem 0;
-  text-align: center;
+  text-align: right;
 }
 
 .footer_container {
@@ -559,7 +559,7 @@ button:hover {
   }
 
   .footer_social {
-    text-align: center;
+    text-align: right;
     margin-top: 1rem;
   }
 }
