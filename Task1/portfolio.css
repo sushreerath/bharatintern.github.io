@@ -16,7 +16,7 @@ nav {
   z-index: 99;
 }
 
-.nav__content {
+.nav_content {
   max-width: 1200px;
   margin: auto;
   padding: 1.5rem 1rem;
@@ -65,7 +65,7 @@ ul li a:hover {
   padding: 2rem 0;
 }
 
-.section__container {
+.section_container {
   min-height: 100vh;
   max-width: 1200px;
   margin: auto;
@@ -106,7 +106,7 @@ ul li a:hover {
   margin-bottom: 2rem;
 }
 
-.action__btns {
+.action_btns {
   display: flex;
   gap: 1rem;
 }
@@ -173,7 +173,7 @@ ul li a:hover {
     font-size: 1.25rem;
   }
 
-  .section__container {
+  .section_container {
     padding: 10rem 1rem 5rem 1rem;
     text-align: center;
     grid-template-columns: repeat(1, 1fr);
@@ -196,7 +196,7 @@ ul li a:hover {
   height: 100vh;
 }
 
-.skills__container {
+.skills_container {
   max-width: 1200px;
   margin: auto;
   text-align: center;
@@ -260,7 +260,7 @@ ul li a:hover {
   margin-bottom: 2rem;
 }
 
-.projects__container {
+.projects_container {
   max-width: 1200px;
   margin: auto;
   display: flex;
@@ -327,7 +327,7 @@ ul li a:hover {
   text-align: center;
 }
 
-.resume__container {
+.resume_container {
   max-width: 1200px;
   margin: auto;
   display: flex;
@@ -344,13 +344,13 @@ ul li a:hover {
   color:white;
 }
 
-.education,
+.education
 .experience {
   flex: 1;
   text-align: left;
 }
 
-.education-item,
+.education-item
 .experience-item {
   margin-bottom: 2rem;
 }
@@ -415,7 +415,7 @@ h3 {
   text-align: center;
 }
 
-.contact__container {
+.contact_container {
   max-width: 1200px;
   margin: auto;
   display: flex;
@@ -513,7 +513,7 @@ button:hover {
   text-align: left;
 }
 
-.resume__container,
+.resume_container,
 .contact__container {
   flex-wrap: wrap;
 }
@@ -526,18 +526,18 @@ button:hover {
   text-align: center;
 }
 
-.footer__container {
+.footer_container {
   max-width: 1200px;
   margin: auto;
 }
 
-.footer__container p {
+.footer_container p {
   margin-top: 2rem;
   margin-bottom: 2rem;
   color: #4E4E50;
 }
 
-.footer__container p span {
+.footer_container p span {
   color: #fff;
 }
 
@@ -554,11 +554,11 @@ button:hover {
 }
 
 @media (max-width: 750px) {
-  .footer__container {
+  .footer_container {
     grid-template-columns: 1fr;
   }
 
-  .footer__social {
+  .footer_social {
     text-align: center;
     margin-top: 1rem;
   }
